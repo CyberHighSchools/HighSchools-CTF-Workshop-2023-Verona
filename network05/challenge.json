@@ -1,0 +1,30 @@
+{
+  "title": "Stolen diskette",
+  "description": "Sei riuscito a sottrarre un floppy disk all'agente P. Tuttavia l'agente \u00e8 stato previdente, ed ha eliminato ogni informazione sensibile dal supporto.\n\nRiesci a trovare un modo per recuperarla?",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "order": 5,
+  "flags": [
+    "^flag\\{DeLeting_A_F1le_Is_Not_EnouGh\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "floppy.img",
+      "type": "upload",
+      "path": "./attachments/floppy.img",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Corrupted image",
+  "description": "Ho scattato questa fotografia mentre hackeravo, ma purtroppo il file si \u00e8 danneggiato.\n\nRiesci a fare qualcosa?",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "order": 3,
+  "flags": [
+    "^flag\\{M4giC_BytEs_Are_M4g1c\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "hacker.png",
+      "type": "upload",
+      "path": "./attachments/hacker.png",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

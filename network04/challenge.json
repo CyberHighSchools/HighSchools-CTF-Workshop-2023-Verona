@@ -1,0 +1,30 @@
+{
+  "title": "Nothing to see there",
+  "description": "Sei entrato in possesso di un immagine inviata all'agente P. Tuttavia non sembra contenere nulla di interessante...",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "forensics"
+  ],
+  "hiddenTags": [],
+  "order": 4,
+  "flags": [
+    "^flag\\{Files_Are_NotAlways_What_They_Seem\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "gabibbo.jpg",
+      "type": "upload",
+      "path": "./attachments/gabibbo.jpg",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

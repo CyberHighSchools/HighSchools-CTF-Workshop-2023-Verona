@@ -1,0 +1,1 @@
+flag{d3f4ult_cr3d3nt14ls_are_always_a_bad_idea}

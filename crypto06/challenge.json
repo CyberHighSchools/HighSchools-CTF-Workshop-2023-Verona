@@ -1,0 +1,30 @@
+{
+  "title": "Secret sound",
+  "description": "Driiiiin, Driiiiin...presto, rispondi al telefono!\n\nFormato della flag: `flag{MESSAGGIOSEGRETO}`",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 6,
+  "flags": [
+    "^flag\\{IKNOWTHINGSLIKEDTMF\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "secret-sound.wav",
+      "type": "upload",
+      "path": "./attachments/secret-sound.wav",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

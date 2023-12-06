@@ -1,0 +1,33 @@
+{
+  "title": "find-me",
+  "description": "Gilberto ha appena aperto la sua attivit\u00e0 e creato il sito web, ma non \u00e8 ancora molto pratico... aiutatelo a capire se \u00e8 presente qualche vulnerabilit\u00e0.\n\nSito: [http://find-me.challs.olicyber.it](http://find-me.challs.olicyber.it)",
+  "authors": [
+    "Davide Saladino <@uncavo-hdmi>"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "order": 3,
+  "flags": [
+    "^flag\\{h0w_did_y0u_f1nd_m3\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://find-me.challs.olicyber.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

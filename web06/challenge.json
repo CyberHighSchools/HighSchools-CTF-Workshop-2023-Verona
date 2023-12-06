@@ -1,0 +1,33 @@
+{
+  "title": "not-a-robot",
+  "description": "Sembra che il team RoboTech stia nascondendo qualcosa di significativo sul proprio sito web. Il tuo compito \u00e8 scoprire quali sono le informazioni nascoste.\n\nSito: [http://not-a-robot.challs.olicyber.it](http://not-a-robot.challs.olicyber.it)",
+  "authors": [
+    "Davide Saladino <@uncavo-hdmi>"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "order": 6,
+  "flags": [
+    "^flag\\{robots_will_take_over_the_world\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://not-a-robot.challs.olicyber.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

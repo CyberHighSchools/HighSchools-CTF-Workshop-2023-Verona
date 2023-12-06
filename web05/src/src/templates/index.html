@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <title>Math Quiz</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Math Contest</h1>
+            <p>Esplorare la bellezza della matematica</p>
+        </div>
+    </header>
+    
+    <main>
+        <section id="math-question">
+            <h2>Ultima domanda</h2>
+            <h3>Risolvi questa domanda per vincere un <b style="color: green;">GRANDE PREMIO!</b></h3>
+            <div id="latex-equation">
+                Siano \( Ω={(x,y,z)∈\mathbb{R}^3:0≤x≤\frac13,\space 0≤z≤2,\space 11x^2≤y≤\frac{11}9} \) e \( f(x,y,z)=xze^{zy^2} \). 
+                L'integrale di \(f\) su \(Ω\) si può ricondurre all'integrale di una funzione \(g(z)\) della terza variabile \(z\) su \([0,2]\). Calcolare \(g(1)\).
+            </div>
+        </section>
+
+        <!-- Hey Ryan, Penso che tu abbia commesso un errore nel backend: il risultato dovrebbe essere 0.0785 e non 0.0776. Risolvi questo problema al più presto...-->
+        <section id="result">
+            <h2>Risultato</h2>
+            <form id="result-form">
+                <label for="result-input">Inserisci il tuo Risultato:</label>
+                <input type="number" step="any" id="result-input" name="result" placeholder="E.g., 42" required>
+                <button type="submit">Invia</button>
+            </form>
+            <div id="result-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Creato con passione da Fabricio.</p>
+        </div>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const resultForm = document.getElementById('result-form');
+            const resultMessage = document.getElementById('result-message');
+
+            resultForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const resultInput = document.getElementById('result-input').value;
+
+                fetch('/validate_result', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ result: resultInput }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success === 1)
+                        resultMessage.style.color = 'green';
+                    else
+                        resultMessage.style.color = 'red';
+                    
+                    resultMessage.textContent = data.message;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    resultMessage.textContent = 'C\'è stato un errore.';
+                });
+            });
+        });
+
+    </script>
+
+</body>
+</html>

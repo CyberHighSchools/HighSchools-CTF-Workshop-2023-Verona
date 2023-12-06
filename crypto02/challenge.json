@@ -1,0 +1,23 @@
+{
+  "title": "Mi piacciono i treni",
+  "description": "Ho ricevuto una mail da un amico ma contiene un testo crittografato ed una strana somma.\n\nNon so cosa fare. Aiutami a recuperare il messaggio!\n\n```txt\nCiphertext: amGlg03_of{s_p1}A3k3n!w39\nKey + Offset: 11\n```",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 2,
+  "flags": [
+    "^flag\\{Aw3s0m3_k33p_Go1n9!\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

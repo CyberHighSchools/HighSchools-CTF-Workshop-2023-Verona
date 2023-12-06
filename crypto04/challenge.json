@@ -1,0 +1,36 @@
+{
+  "title": "Elementary, Watson!",
+  "description": "Sei un investigatore sulla scena di una rapina in banca e hai appena catturato un presunto rapinatore.\n\nAnalizzando il suo cellulare noti un messaggio che sembra sospetto. Riesci a capire qual \u00e8 il messaggio per mettere questo tizio in prigione?",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 4,
+  "flags": [
+    "^flag\\{YOUREINJAIL\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "hint.png",
+      "type": "upload",
+      "path": "./attachments/hint.png",
+      "dynamic": false
+    },
+    {
+      "name": "message.txt",
+      "type": "upload",
+      "path": "./attachments/message.txt",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

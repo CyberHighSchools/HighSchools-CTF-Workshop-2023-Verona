@@ -1,0 +1,27 @@
+{
+  "title": "Operazione Cyb3rM0nk3ys #2: Time Traveller m0nk3",
+  "description": "Ci stanno prendendo in giro...\n\n\u00c8 impossibile che queste scimmie non abbiano lasciato tracce sul loro sito, anche perch\u00e8 lo ricordavo diverso.\n\n\u00c8 come se avessero cambiato qualcosa. Prova a cercare delle tracce storiche.",
+  "authors": [
+    "Simone Di Maria <@simonedimaria>"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [
+    "osint",
+    "wayback",
+    "git"
+  ],
+  "order": 2,
+  "flags": [
+    "^flag\\{silly_leaky_piscio\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

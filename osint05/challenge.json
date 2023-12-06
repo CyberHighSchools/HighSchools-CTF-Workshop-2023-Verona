@@ -1,0 +1,28 @@
+{
+  "title": "Operazione Cyb3rM0nk3ys #5: Does He Have Snap?",
+  "description": "Abbiamo scoperto l'alter ego di uno dei membri del team!\n\nDato il dominio Web3 che hai appena scoperto, riesci a trovare se lo stesso username \u00e8 utilizzato su altri social per svolgere le loro attivit\u00e0 losche?\n\nHa per caso Snapchat questo ornitorninco?",
+  "authors": [
+    "Simone Di Maria <@simonedimaria>"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [
+    "osint",
+    "socials",
+    "github",
+    "twitter"
+  ],
+  "order": 5,
+  "flags": [
+    "^flag\\{n0_i_d0nt_h4v3_snap\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

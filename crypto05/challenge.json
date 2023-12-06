@@ -1,0 +1,30 @@
+{
+  "title": "Vacanze romane",
+  "description": "Un amico crittografo in vacanza a Roma mi ha mandato una cartolina.\n\nConoscendolo ci sar\u00e0 sicuramente un messaggio nascosto!",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 5,
+  "flags": [
+    "^flag\\{st3g0_1s_funny\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "postcard.png",
+      "type": "upload",
+      "path": "./attachments/postcard.png",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

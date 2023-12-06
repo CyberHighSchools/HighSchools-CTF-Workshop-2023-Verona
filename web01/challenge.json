@@ -1,0 +1,33 @@
+{
+  "title": "Cuki",
+  "description": "Questa azienda mi ha rubato i biscotti... riuscite a recuperarli?\n\nSito: [http://cuki.challs.olicyber.it](http://cuki.challs.olicyber.it)",
+  "authors": [
+    "Davide Saladino <@uncavo-hdmi>"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "order": 1,
+  "flags": [
+    "^flag\\{here_is_your_c00ki3_:3\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://cuki.challs.olicyber.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Operazione Cyb3rM0nk3ys #1: TXT4feds",
+  "description": "Benvenuto nell'Operazione Cyb3rM0nk3ys.\n\n\u00c8 recentemente apparsa nel web una fuga di dati dell'azienda Iotinga, i principali sospettati del Data Breach sono la cybergang dei Cyb3rM0nk3ys, che si spaccia come un CTF team.\n\nNon sembra abbiano utilizzato una OPSEC ottimale e potrebbero aver lasciato delle Digital Footprints in giro per il web.\n\nIl tuo compito \u00e8 quello di risalire a pi\u00f9 informazioni possibili su questi malintenzionati.\n\nAl momento conosciamo solo il loro dominio: `cybermonkeys.IT`\n\nSembrerebbe ci abbiano lasciato un messaggio... riesci a trovarlo?",
+  "authors": [
+    "Simone Di Maria <@simonedimaria>"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [
+    "osint",
+    "dns",
+    "dig"
+  ],
+  "order": 1,
+  "flags": [
+    "^flag\\{b4n4n4_feds\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

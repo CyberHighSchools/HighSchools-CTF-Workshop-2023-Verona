@@ -1,0 +1,30 @@
+{
+  "title": "My briefcase",
+  "description": "L'agente P ha intercettato il trasferimento di informazioni TOP SECRET.\n\nRiesci a trovare nulla di interessante?",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "network"
+  ],
+  "hiddenTags": [],
+  "order": 2,
+  "flags": [
+    "^flag\\{HoPe_You_He4red_oF_GrEp\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "my_briefcase.pcapng",
+      "type": "upload",
+      "path": "./attachments/my_briefcase.pcapng",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

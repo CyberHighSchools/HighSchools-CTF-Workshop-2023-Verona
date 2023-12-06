@@ -1,0 +1,1 @@
+flag{Files_Are_NotAlways_What_They_Seem}

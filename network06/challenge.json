@@ -1,0 +1,30 @@
+{
+  "title": "A top secret message",
+  "description": "Sono riuscito ad intercettare l'agente P mentre consultava la posta elettronica.\n\nForse riesco a recuperare qualche informazione utile...",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "network"
+  ],
+  "hiddenTags": [],
+  "order": 6,
+  "flags": [
+    "^flag\\{Em4iL_Are_Not_A_SeCure_Media\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "a_top_secret_message.pcapng",
+      "type": "upload",
+      "path": "./attachments/a_top_secret_message.pcapng",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

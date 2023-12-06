@@ -1,0 +1,30 @@
+{
+  "title": "Forgot password",
+  "description": "Non ricordo la password di admin del mio router, per\u00f2 ho recuperato una cattura di pacchetti di qualche tempo fa.\n\nRiesci a recuperarla?",
+  "authors": [
+    "Alessandro Righi <@alerighi>"
+  ],
+  "tags": [
+    "network"
+  ],
+  "hiddenTags": [],
+  "order": 1,
+  "flags": [
+    "^flag\\{aLw4ys_uS3_hTtPS\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [
+    {
+      "name": "forgot_password.pcapng",
+      "type": "upload",
+      "path": "./attachments/forgot_password.pcapng",
+      "dynamic": false
+    }
+  ],
+  "hints": []
+}

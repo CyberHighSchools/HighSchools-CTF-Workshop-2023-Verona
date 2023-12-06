@@ -1,0 +1,34 @@
+{
+  "title": "Operazione Cyb3rM0nk3ys #4: CryptoSgamo",
+  "description": "Abbiamo scoperto dove nascondevano le loro attivit\u00e0 illegali!\n\nHai notato quell'indirizzo del wallet per i pagamenti?\n\nSembrerebbe che gli ETH ricevuti in quel wallet vengano poi smistati per poi ricongiungere di nuovo in un altro wallet con dominio Web3 che finisce con `.eth`.\n\nRiesci a recuperare l'indirizzo di questo wallet?\n\nNOTE:  \nformato flag: flag{\\<indirizzo wallet recipiente\\>}",
+  "authors": [
+    "Simone Di Maria <@simonedimaria>"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [
+    "osint",
+    "blockchain",
+    "ethereum"
+  ],
+  "order": 4,
+  "flags": [
+    "^flag\\{0x1E3BA157c946D1e6EaF228834D80F85D2460D3eF\\}$",
+    "^flag\\{0x1e3ba157c946d1e6eaf228834d80f85d2460d3ef\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": [],
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 5
+    }
+  }
+}

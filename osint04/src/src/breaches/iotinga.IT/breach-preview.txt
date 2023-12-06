@@ -1,0 +1,27 @@
+alerighi:ale2023
+alerighi:AKApiratale
+alerighi:changeme
+alerighi:AS400__
+alerighi:earlyalzheimer
+cristiano:0n41751rC
+cridiba:ForzaBari!
+cridiba:iotinga_2013
+cridiba:iotinga_2014
+cridiba:iotinga_2015
+cridiba:iotinga_2016
+alerighi:iotinga_2017
+alerighi:iotinga_2018
+alerighi:iotinga_2019
+alerighi:iotinga_2020
+alerighi:iotinga_2021
+alerighi:iotinga_2022
+alerighi:iotinga_2023
+flag:flag{iotinga_rekt}
+alerighi:alerighi
+cristiano:0n41751rC
+davidesala:' or 1=1--
+alerighi:B0l0gn4<3
+cristianodibari:HeadOfBoccioni
+cristianodibari:b0cc10n1<3
+piscio:payload'); DROP TABLE Boccioni;--
+[...]

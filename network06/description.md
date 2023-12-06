@@ -1,0 +1,3 @@
+Sono riuscito ad intercettare l'agente P mentre consultava la posta elettronica.
+
+Forse riesco a recuperare qualche informazione utile...

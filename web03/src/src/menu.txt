@@ -1,0 +1,14 @@
+Espresso: un caffè concentrato preparato forzando l'acqua calda attraverso i chicchi di caffè macinati finemente.
+Cappuccino: caffè espresso mescolato con latte cotto a vapore e ricoperto da uno strato di latte schiumato.
+Latte: espresso mescolato con una maggiore quantità di latte cotto a vapore e una piccola quantità di latte schiumato.
+Americano: espresso diluito con acqua calda per creare una forza simile al tradizionale caffè americano.
+Macchiato: espresso con sopra una piccola quantità di schiuma di latte.
+Flat White: simile al latte macchiato ma con microschiuma, che conferisce una consistenza più cremosa.
+Moka: espresso mescolato con latte cotto a vapore e sciroppo di cioccolato, spesso guarnito con panna montata.
+Affogato: un caffè dolce composto da un bicchierino di caffè espresso caldo versato su una pallina di gelato alla vaniglia.
+Cold Brew: caffè preparato con acqua fredda per un periodo prolungato, ottenendo un sapore morbido e meno acido.
+Caffè ghiacciato: caffè freddo servito con ghiaccio, spesso zuccherato e/o con latte.
+Caffè turco: caffè macinato finemente cotto a fuoco lento in acqua con zucchero e cardamomo, quindi servito non filtrato.
+Irish Coffee: caffè caldo mescolato con whisky irlandese e zucchero, spesso condito con panna.
+Caffè Vienna: caffè nero con panna montata, solitamente aromatizzato alla vaniglia o al cioccolato.
+Ristretto: una breve dose di espresso con un rapporto caffè/acqua più elevato, che risulta in un sapore più concentrato.

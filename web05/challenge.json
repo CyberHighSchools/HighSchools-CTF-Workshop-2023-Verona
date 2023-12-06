@@ -1,0 +1,33 @@
+{
+  "title": "inspect-more",
+  "description": "Sei all'ultima domanda di un quiz che ti permetter\u00e0 di vincere un gran premio. Siccome la domanda ti appare troppo difficile, hai deciso di cheattare e chiedere aiuto al tuo amico universitario per risolverla e, stando a quanto dice, la risposta esatta dovrebbe essere \"0.0785\"... ma non sembra funzionare.\n\nSito: [http://inspect-more.challs.olicyber.it](http://inspect-more.challs.olicyber.it)",
+  "authors": [
+    "Davide Saladino <@uncavo-hdmi>"
+  ],
+  "tags": [
+    "web"
+  ],
+  "hiddenTags": [],
+  "order": 5,
+  "flags": [
+    "^flag\\{was_the_qu3sti0n_t00_easy\\?\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": [],
+  "endpoint": {
+    "type": "http",
+    "url": "http://inspect-more.challs.olicyber.it:80/"
+  },
+  "checker": {
+    "enabled": true,
+    "config": {
+      "timeout": 10
+    }
+  }
+}

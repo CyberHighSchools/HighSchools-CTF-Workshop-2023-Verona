@@ -1,0 +1,28 @@
+{
+  "title": "Operazione Cyb3rM0nk3ys #6: Where's Perry?",
+  "description": "@perryloveshacking ?? AHHHH Perry L'Ornitorinco (l'hacker) !! \ud83d\ude31\ud83d\ude20\n\nSembrerebbe stia partendo per le Bahamas a sguazzare con i soldi del Breach di Iotinga!\n\nFai in fretta, sta per prendere l'aereo a Verona, aiutaci a localizzarlo prima che scappi!",
+  "authors": [
+    "Simone Di Maria <@simonedimaria>"
+  ],
+  "tags": [
+    "osint"
+  ],
+  "hiddenTags": [
+    "osint",
+    "instagram",
+    "geosint",
+    "googlemaps"
+  ],
+  "order": 6,
+  "flags": [
+    "^flag\\{I_found_p3rry\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

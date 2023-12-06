@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Ubiquiti AC Login </title>
+</head>
+<body>
+    <form method="post" action="{{ url_for('login') }}">
+        <h2>Admin Access Panel</h2>
+        {% if error %}
+            <p>{{ error }}</p>
+        {% endif %}
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <footer>
+        <h4>Ubiquiti Networks UAP-AC-PRO WLAN Access Point</h4>
+    </footer>
+</body>
+</html>

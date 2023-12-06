@@ -1,0 +1,23 @@
+{
+  "title": "BaseNot64",
+  "description": "Eccoti un bel messaggio cifrato... ehm volevo dire codificato.\n\n`1i[\\;7:U40>\"3a06\"Y\"C10A^.;0\"WPC,0sFH?r_<;_^d.2D]2h2/,]W>&e\\-B/rh\"BNR\"`",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 1,
+  "flags": [
+    "^flag\\{th1s_i5_enc0d1ng\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}

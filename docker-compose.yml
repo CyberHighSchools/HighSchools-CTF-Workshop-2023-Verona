@@ -1,0 +1,83 @@
+services:
+  # Web 01
+  web01:
+    build: ./web01/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web01.entrypoints=web"
+      - "traefik.http.routers.web01.rule=Host(`cuki.challs.olicyber.it`)"
+      - "traefik.http.services.web01.loadbalancer.server.port=80"
+    networks:
+      - web
+  # Web 02
+  web02:
+    build: ./web02/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web02.entrypoints=web"
+      - "traefik.http.routers.web02.rule=Host(`change-me.challs.olicyber.it`)"
+      - "traefik.http.services.web02.loadbalancer.server.port=80"
+    networks:
+      - web
+  # Web 03
+  web03:
+    build: ./web03/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web03.entrypoints=web"
+      - "traefik.http.routers.web03.rule=Host(`find-me.challs.olicyber.it`)"
+      - "traefik.http.services.web03.loadbalancer.server.port=80"
+    networks:
+      - web
+  # Web 4
+  web04:
+    build: ./web04/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web04.entrypoints=web"
+      - "traefik.http.routers.web04.rule=Host(`weird-device.challs.olicyber.it`)"
+      - "traefik.http.services.web04.loadbalancer.server.port=80"
+    networks:
+      - web
+  # Web 05
+  web05:
+    build: ./web05/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web05.entrypoints=web"
+      - "traefik.http.routers.web05.rule=Host(`inspect-more.challs.olicyber.it`)"
+      - "traefik.http.services.web05.loadbalancer.server.port=80"
+    networks:
+      - web
+  # Web 06
+  web06:
+    build: ./web06/src
+    privileged: false
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.web06.entrypoints=web"
+      - "traefik.http.routers.web06.rule=Host(`not-a-robot.challs.olicyber.it`)"
+      - "traefik.http.services.web06.loadbalancer.server.port=80"
+    networks:
+      - web
+
+networks:
+  web:
+    external: true

@@ -1,0 +1,23 @@
+{
+  "title": "XOR enough",
+  "description": "Ho cifrato la flag con la mia chiave segretissima, non riuscirai mai ad indovinarla!\n\nRicorda, il formato della flag \u00e8 `flag{s3cr3t_fl4g}`\n\nFLAG: `1e03132c3e681e300b7b30063301423c1a1c165f070c0d06015f07140e3748182d7a31064c031e36`",
+  "authors": [
+    "Cristiano Di Bari <@cridiba>"
+  ],
+  "tags": [
+    "crypto"
+  ],
+  "hiddenTags": [],
+  "order": 3,
+  "flags": [
+    "^flag\\{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll\\}$"
+  ],
+  "scoring": {
+    "type": "dynamic",
+    "start": 500,
+    "stop": 50,
+    "decay": "50%"
+  },
+  "files": [],
+  "hints": []
+}
